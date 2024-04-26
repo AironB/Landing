@@ -5,51 +5,127 @@
 .siman-logo{
     text-align: center;
 }
-.card{
+.menu{
     display: flex;
-    width: 30%;
-    height: 300px;
-    margin-bottom: 30px;
+}
+.cover{
+    display: flex;
+    position:relative;
+}
+.card-grande
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:static;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
- }
-.card:nth-child(1){
-    background-image: url(./Assets/img/IEUM66UOW5ET3LSESPXRUULXU4.avif);
-}
-.card:nth-child(2){
-    background-image: url(./Assets/img/las-mejores-bocinas-bluetooth-2023.jpg);
-}
-.card:nth-child(3){
-    background-image: url(./Assets/img/sddefault.jpg);
-}
-.card:nth-child(4){
-    background-image: url(./Assets/img/tipos-de-fotografias.jpg);
-}
-.tarjeta{
-    width: 25%;
-    height: 90px;
-    margin-bottom: 30px;
-    background-size: cover;
-    display:flex ;
-    flex-direction: row;
-    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 8rem;
+    margin-right: 250px;
+    margin-left: 300px;
 
 }
+.card-grande:nth-child(1)
+{
+    background-image: url(./img/images.jpeg);
+}
+.card{
+    width: 200px;
+    height: 200px;
+
+    background-size:cover;
+    display:flex ;
+    flex-direction: row;
+    align-items:normal ;
+
+
+    align-content: center;
+    justify-content:space-evenly ;
+    color:#ff4500;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    
+}
+.card:nth-child(1){
+    background-image: url(./img/IEUM66UOW5ET3LSESPXRUULXU4.avif);
+}
+.card:nth-child(2){
+    background-image: url(./img/las-mejores-bocinas-bluetooth-2023.jpg);
+}
+.card:nth-child(3){
+    background-image: url(./img/sddefault.jpg);
+}
+.card:nth-child(4){
+    background-image: url(./img/tipos-de-fotografias.jpg);
+}
+.marcas{
+    width: 15%;
+    height: 80px;
+
+    background-size:cover;
+    display:flex ;
+    
+    flex-direction: row;
+    position: nowrap;
+    align-content: center;
+
+  
+    /* Vamos a añadir esto 👇 */
+    scroll-snap-align: center;
+}
+.marcas:nth-child(1){
+    background-image: url(./img/Marcas/1685279753620.png);
+}
+.marcas:nth-child(2){
+    background-image: url(./img/Marcas/descarga.png);
+}
+.marcas:nth-child(3){
+    background-image: url(./img/Marcas/fender3684.jpg);
+}
+.marcas:nth-child(4){
+    background-image: url(./img/Marcas/RWCZER.avif);
+}
+.marcas:nth-child(5){
+    background-image: url(./img/Marcas/hp_og_image.avif);
+}
+
+.tarjeta{
+    width: 100%;
+    height: 80px;
+    
+    background-size:cover;
+    display:flex ;
+    
+    flex-direction: row;
+    position:static;
+    align-content: center;
+
+    
+}
 .tarjeta:nth-child(1){
-    background-image: url(./Assets/img/pay/credisiman1.png);
+    background-image: url(./img/pay/credisiman1.png);
 }
 .tarjeta:nth-child(2){
-    background-image: url(./Assets/img/pay/credisiman.png);
+    background-image: url(./img/pay/credisiman.png);
 }
 .tarjeta:nth-child(3){
-    background-image: url(./Assets/img/pay/visa.png);
+    background-image: url(./img/pay/visa.png);
 }
 .tarjeta:nth-child(4){
-    background-image: url(./Assets/img/pay/Mastercard-logo.svg.png);
+    background-image: url(./img/pay/Mastercard-logo.svg.png);
 }
 tarjeta:nth-child(5){
-    background-image: url(./Assets/img/pay/images.png);
+    background-image: url(./img/pay/images.png);
 }
 .tarjeta:nth-child(6){
-    background-image: url(./Assets/img/pay/digicert.png);
+    background-image: url(./img/pay/digicert.png);
+}
+.pie{
+
+    text-align: center;
+    align-items: center;
 }
